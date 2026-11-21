@@ -1,5 +1,7 @@
 # bookreader — ESP32-S3 便携小说阅读器 + Hi-Fi 播放器
 
+PCB: https://oshwhub.com/qjjq/project_gqlavhnz
+ 
 **当前进度：三步全部完成。**
 ① TXT 阅读器 ② 音频播放 ③ EPUB 解析 —— 均通过编译与数据校验。
 
