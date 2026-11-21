@@ -38,22 +38,15 @@ bookreader/
   input.h/.cpp       EC11 旋转编码器解码、按键短按/长按、电池电压
   tft_setup.h        TFT_eSPI 的 sketch 本地配置（不用改库文件）
   tools/
-    build_font.py       电脑端：TTF → 24×24 点阵字库 .f24（★ 必须先跑这个）
-    check_font.py       电脑端：校验 .f24 并把字形用字符画出来肉眼确认
-    convert_txt.py      电脑端：GBK → UTF-8 批量转换
-    validate_layout.py  电脑端：复刻设备分页算法做压力测试
-    verify_engine.py    电脑端：字节级守恒验证（定位吞字/重复用）
-    verify_concurrency.py 电脑端：音频并发安全验证（TFT 锁覆盖 + 任务优先级）
-    validate_epub.py    电脑端：EPUB 提取链路验证（解压 + 标签剥离 + 排版预览）
-  third_party/
-    ESP32-audioI2S/     音频库副本（3.4.7，保持未修改；仅作离线参考/装库来源）
+    out/
+        sourcehan24_aa.f24
 ```
 
 ---
 
 ## 2. 接线
 
-严格按你的方案，不需要改：
+
 
 | 模块 | 引脚 | ESP32-S3 | 说明 |
 |---|---|---|---|
